@@ -13,7 +13,7 @@ body {
 .countdown {
   display: flex;
   align-items: center;
-  font-size: 50px;
+  font-size: 65px;
 }
 
 .countdown > div {
@@ -51,4 +51,15 @@ body {
 
 #seconds {
   color: #dc3545;
+}
+
+/* Media Query for Mobile Phones */
+@media (max-width: 767px) {
+  .countdown {
+    font-size: 28px;
+  }
+
+  .countdown > div {
+    padding: 8px 16px;
+  }
 }
